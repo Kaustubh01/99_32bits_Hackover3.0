@@ -13,6 +13,6 @@ public class Planet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.forward * 50 * Time.deltaTime);
+        transform.Rotate(Vector3.forward * 30 * Time.deltaTime);
     }
 }

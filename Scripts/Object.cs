@@ -18,14 +18,14 @@ public class Object : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        transform.localScale = new Vector3(2f, 2f, 0f);
+        transform.localScale = new Vector3(3f, 3f, 0f);
 
         isClickable = true;
 
     }
     private void OnMouseExit()
     {
-        transform.localScale = new Vector3(1f, 1f, 0f);
+        transform.localScale = new Vector3(2f, 2f, 0f);
         gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
         isClickable = false;
     }
