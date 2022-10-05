@@ -92,6 +92,7 @@ namespace Completed
 			
 			levelImage.SetActive(true);
 			enabled = false;
+			SceneManager.LoadScene("Main Menu");
 		}
 		
 		IEnumerator MoveEnemies()
